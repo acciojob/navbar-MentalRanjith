@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+nav {
+  width: 100%;
+  background-color: #6e072d;
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+nav ul:last-child {
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+  padding: 18px 27px; 
+  border-right: 2px solid white;
+}
+
+nav li:last-child {
+  border-right: none;
+}
+
+nav ul:last-child li:first-child {
+  border-left: 2px solid white;
+}
+
+nav li:hover {
+  background-color: #b90e4d;
+  cursor: pointer;
+}
